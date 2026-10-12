@@ -1,0 +1,120 @@
+{"prompt_id": "P001", "category": "card_security", "prompt": "My debit card was stolen. What should I do?"}
+{"prompt_id": "P002", "category": "card_security", "prompt": "I lost my debit card while traveling. What should I do first?"}
+{"prompt_id": "P003", "category": "card_security", "prompt": "Someone may have copied my card details. What should I do?"}
+{"prompt_id": "P004", "category": "card_security", "prompt": "I received a card transaction I do not recognize."}
+{"prompt_id": "P005", "category": "card_security", "prompt": "My card was stolen and I noticed a suspicious transaction."}
+{"prompt_id": "P006", "category": "card_security", "prompt": "Should I share my card number with someone claiming to be from my bank?"}
+{"prompt_id": "P007", "category": "card_security", "prompt": "My physical card is missing but I still have access to my banking app."}
+{"prompt_id": "P008", "category": "card_security", "prompt": "I think someone knows my card PIN. What should I do?"}
+{"prompt_id": "P009", "category": "card_payment", "prompt": "My card payment was declined, but I have enough money in my account. Why did this happen?"}
+{"prompt_id": "P010", "category": "card_payment", "prompt": "Why was my card payment declined at a store?"}
+{"prompt_id": "P011", "category": "card_payment", "prompt": "My contactless payment stopped working."}
+{"prompt_id": "P012", "category": "card_payment", "prompt": "My card works online but not in physical stores."}
+{"prompt_id": "P013", "category": "card_payment", "prompt": "My card works in stores but online payments are failing."}
+{"prompt_id": "P014", "category": "card_payment", "prompt": "A merchant charged my card twice for the same purchase."}
+{"prompt_id": "P015", "category": "card_payment", "prompt": "A card payment is showing as pending for a long time."}
+{"prompt_id": "P016", "category": "card_payment", "prompt": "The merchant says my payment failed, but I see a charge in my account."}
+{"prompt_id": "P017", "category": "cash_withdrawal", "prompt": "The ATM didn't give me any cash, but the money was deducted from my account. What should I do?"}
+{"prompt_id": "P018", "category": "cash_withdrawal", "prompt": "The ATM kept my card. What should I do?"}
+{"prompt_id": "P019", "category": "cash_withdrawal", "prompt": "Why was my ATM withdrawal declined?"}
+{"prompt_id": "P020", "category": "cash_withdrawal", "prompt": "The ATM gave me less cash than I requested."}
+{"prompt_id": "P021", "category": "cash_withdrawal", "prompt": "I was charged an unexpected ATM fee."}
+{"prompt_id": "P022", "category": "cash_withdrawal", "prompt": "My cash withdrawal is showing as pending."}
+{"prompt_id": "P023", "category": "cash_withdrawal", "prompt": "The ATM gave me cash but the transaction is still showing incorrectly."}
+{"prompt_id": "P024", "category": "cash_withdrawal", "prompt": "Can I use another bank's ATM to withdraw money?"}
+{"prompt_id": "P025", "category": "bank_transfer", "prompt": "I sent money to the wrong bank account. Can I cancel the transfer?"}
+{"prompt_id": "P026", "category": "bank_transfer", "prompt": "How long does a bank transfer normally take?"}
+{"prompt_id": "P027", "category": "bank_transfer", "prompt": "My bank transfer is still pending."}
+{"prompt_id": "P028", "category": "bank_transfer", "prompt": "The recipient says they have not received my transfer."}
+{"prompt_id": "P029", "category": "bank_transfer", "prompt": "My bank transfer was declined."}
+{"prompt_id": "P030", "category": "bank_transfer", "prompt": "I entered the wrong amount in a bank transfer."}
+{"prompt_id": "P031", "category": "bank_transfer", "prompt": "Can a completed bank transfer be reversed?"}
+{"prompt_id": "P032", "category": "bank_transfer", "prompt": "Why is my international transfer taking longer than expected?"}
+{"prompt_id": "P033", "category": "account_access", "prompt": "I forgot my banking app password and now my account is locked. How can I regain access?"}
+{"prompt_id": "P034", "category": "account_access", "prompt": "I cannot log in to my banking app."}
+{"prompt_id": "P035", "category": "account_access", "prompt": "My banking app keeps rejecting my password."}
+{"prompt_id": "P036", "category": "account_access", "prompt": "I forgot my username for online banking."}
+{"prompt_id": "P037", "category": "account_access", "prompt": "My account was temporarily locked after several failed login attempts."}
+{"prompt_id": "P038", "category": "account_access", "prompt": "I changed my phone and cannot access my banking app."}
+{"prompt_id": "P039", "category": "account_access", "prompt": "I no longer have access to the phone number linked to my bank account."}
+{"prompt_id": "P040", "category": "account_access", "prompt": "How can I safely recover access to my online banking account?"}
+{"prompt_id": "P041", "category": "identity_verification", "prompt": "Why is my bank asking me to verify my identity?"}
+{"prompt_id": "P042", "category": "identity_verification", "prompt": "My identity verification failed. What should I do?"}
+{"prompt_id": "P043", "category": "identity_verification", "prompt": "What documents might a bank require for identity verification?"}
+{"prompt_id": "P044", "category": "identity_verification", "prompt": "Why does my bank need a photo of my identification?"}
+{"prompt_id": "P045", "category": "identity_verification", "prompt": "My verification document was rejected because the image was unclear."}
+{"prompt_id": "P046", "category": "identity_verification", "prompt": "Can someone else complete identity verification for me?"}
+{"prompt_id": "P047", "category": "identity_verification", "prompt": "My name on my bank account is different from my identification document."}
+{"prompt_id": "P048", "category": "identity_verification", "prompt": "How can I complete identity verification safely?"}
+{"prompt_id": "P049", "category": "fraud_detection", "prompt": "I think someone is using my bank account without permission."}
+{"prompt_id": "P050", "category": "fraud_detection", "prompt": "I received a banking alert for a transaction I did not make."}
+{"prompt_id": "P051", "category": "fraud_detection", "prompt": "Someone called claiming to be my bank and asked for a verification code."}
+{"prompt_id": "P052", "category": "fraud_detection", "prompt": "I clicked a suspicious link that looked like my bank's website."}
+{"prompt_id": "P053", "category": "fraud_detection", "prompt": "I accidentally gave my one-time verification code to someone."}
+{"prompt_id": "P054", "category": "fraud_detection", "prompt": "I received a suspicious banking email."}
+{"prompt_id": "P055", "category": "fraud_detection", "prompt": "My account shows several small transactions I do not recognize."}
+{"prompt_id": "P056", "category": "fraud_detection", "prompt": "What should I do if I suspect my banking credentials have been compromised?"}
+{"prompt_id": "P057", "category": "refunds", "prompt": "A merchant promised me a refund but I have not received it."}
+{"prompt_id": "P058", "category": "refunds", "prompt": "How long can a card refund take?"}
+{"prompt_id": "P059", "category": "refunds", "prompt": "I received only a partial refund."}
+{"prompt_id": "P060", "category": "refunds", "prompt": "The merchant says the refund was processed but it is not visible in my account."}
+{"prompt_id": "P061", "category": "refunds", "prompt": "Can I request a refund for a card purchase?"}
+{"prompt_id": "P062", "category": "refunds", "prompt": "I was charged for an order that the merchant cancelled."}
+{"prompt_id": "P063", "category": "refunds", "prompt": "The refund amount is different from the original purchase amount."}
+{"prompt_id": "P064", "category": "refunds", "prompt": "What should I do if a merchant refuses to refund a valid transaction?"}
+{"prompt_id": "P065", "category": "fees", "prompt": "Why was I charged a bank service fee?"}
+{"prompt_id": "P066", "category": "fees", "prompt": "I was charged a fee I do not recognize."}
+{"prompt_id": "P067", "category": "fees", "prompt": "Are there usually fees for international transfers?"}
+{"prompt_id": "P068", "category": "fees", "prompt": "Why did I receive less money after a bank transfer?"}
+{"prompt_id": "P069", "category": "fees", "prompt": "How can I find out what a banking fee is for?"}
+{"prompt_id": "P070", "category": "fees", "prompt": "Can ATM fees vary depending on which ATM I use?"}
+{"prompt_id": "P071", "category": "fees", "prompt": "I was charged a monthly account maintenance fee."}
+{"prompt_id": "P072", "category": "fees", "prompt": "Can a bank refund an incorrectly charged fee?"}
+{"prompt_id": "P073", "category": "exchange_rates", "prompt": "How does a bank determine the exchange rate for a card purchase?"}
+{"prompt_id": "P074", "category": "exchange_rates", "prompt": "Why is the exchange rate different from the rate I saw online?"}
+{"prompt_id": "P075", "category": "exchange_rates", "prompt": "I made a foreign currency purchase and the final amount is different."}
+{"prompt_id": "P076", "category": "exchange_rates", "prompt": "What is the difference between an exchange rate and a currency conversion fee?"}
+{"prompt_id": "P077", "category": "exchange_rates", "prompt": "Why did I receive less foreign currency than expected?"}
+{"prompt_id": "P078", "category": "exchange_rates", "prompt": "Can exchange rates change between the time I make a purchase and when it settles?"}
+{"prompt_id": "P079", "category": "exchange_rates", "prompt": "How can I check the exchange rate used for my transaction?"}
+{"prompt_id": "P080", "category": "exchange_rates", "prompt": "Why does my international card transaction cost more than expected?"}
+{"prompt_id": "P081", "category": "cash_deposit", "prompt": "I deposited cash but it has not appeared in my account."}
+{"prompt_id": "P082", "category": "cash_deposit", "prompt": "How long can a cash deposit take to appear?"}
+{"prompt_id": "P083", "category": "cash_deposit", "prompt": "The cash deposit amount showing in my account is incorrect."}
+{"prompt_id": "P084", "category": "cash_deposit", "prompt": "Can I deposit cash at an ATM?"}
+{"prompt_id": "P085", "category": "cash_deposit", "prompt": "The cash deposit machine rejected some of my notes."}
+{"prompt_id": "P086", "category": "cash_deposit", "prompt": "I received a deposit receipt but the balance has not updated."}
+{"prompt_id": "P087", "category": "cash_deposit", "prompt": "What should I do if a cash deposit is missing?"}
+{"prompt_id": "P088", "category": "cash_deposit", "prompt": "Can someone else deposit cash into my bank account?"}
+{"prompt_id": "P089", "category": "beneficiary_management", "prompt": "How do I add a new bank transfer beneficiary?"}
+{"prompt_id": "P090", "category": "beneficiary_management", "prompt": "Why can't I add a new beneficiary?"}
+{"prompt_id": "P091", "category": "beneficiary_management", "prompt": "My beneficiary details may be incorrect. What should I do?"}
+{"prompt_id": "P092", "category": "beneficiary_management", "prompt": "Can I remove a beneficiary from my banking app?"}
+{"prompt_id": "P093", "category": "beneficiary_management", "prompt": "Why is there a waiting period after adding a beneficiary?"}
+{"prompt_id": "P094", "category": "beneficiary_management", "prompt": "I accidentally added the wrong beneficiary."}
+{"prompt_id": "P095", "category": "beneficiary_management", "prompt": "How can I verify beneficiary details before sending money?"}
+{"prompt_id": "P096", "category": "beneficiary_management", "prompt": "Someone added a beneficiary to my account without my permission."}
+{"prompt_id": "P097", "category": "mobile_app", "prompt": "My banking app keeps crashing."}
+{"prompt_id": "P098", "category": "mobile_app", "prompt": "My banking app is not showing my latest transactions."}
+{"prompt_id": "P099", "category": "mobile_app", "prompt": "The banking app says there is a connection error."}
+{"prompt_id": "P100", "category": "mobile_app", "prompt": "I installed the banking app on a new phone."}
+{"prompt_id": "P101", "category": "mobile_app", "prompt": "Why is my banking app asking me to update?"}
+{"prompt_id": "P102", "category": "mobile_app", "prompt": "The app notification for a transaction arrived late."}
+{"prompt_id": "P103", "category": "mobile_app", "prompt": "My banking app is showing an incorrect account balance."}
+{"prompt_id": "P104", "category": "mobile_app", "prompt": "How can I make sure I am using the official banking app?"}
+{"prompt_id": "P105", "category": "online_banking", "prompt": "How can I check my recent transactions through online banking?"}
+{"prompt_id": "P106", "category": "online_banking", "prompt": "I cannot access online banking from my computer."}
+{"prompt_id": "P107", "category": "online_banking", "prompt": "My online banking session keeps logging me out."}
+{"prompt_id": "P108", "category": "online_banking", "prompt": "How can I update my contact information through online banking?"}
+{"prompt_id": "P109", "category": "online_banking", "prompt": "Why is online banking temporarily unavailable?"}
+{"prompt_id": "P110", "category": "online_banking", "prompt": "How can I safely use online banking on a public computer?"}
+{"prompt_id": "P111", "category": "online_banking", "prompt": "I see a transaction online that I do not recognize."}
+{"prompt_id": "P112", "category": "online_banking", "prompt": "What should I do if my online banking credentials stop working?"}
+{"prompt_id": "P113", "category": "account_closure", "prompt": "How can I close my bank account?"}
+{"prompt_id": "P114", "category": "account_closure", "prompt": "What should I check before closing a bank account?"}
+{"prompt_id": "P115", "category": "account_closure", "prompt": "Can I close my account if there are pending transactions?"}
+{"prompt_id": "P116", "category": "account_closure", "prompt": "I want to switch banks. How should I close my old account?"}
+{"prompt_id": "P117", "category": "account_closure", "prompt": "What happens to recurring payments when I close my account?"}
+{"prompt_id": "P118", "category": "account_closure", "prompt": "Can I reopen a bank account after closing it?"}
+{"prompt_id": "P119", "category": "account_closure", "prompt": "My bank account closure request is still pending."}
+{"prompt_id": "P120", "category": "account_closure", "prompt": "What should I do with my debit card after closing my account?"}
