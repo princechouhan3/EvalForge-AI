@@ -110,7 +110,7 @@ This project is an evaluation and preference-dataset preparation platform. The g
 
 ## Author
 
-**Prince Chouhan**
+**Prince Parvez**
 
 GitHub: https://github.com/princeparvez3
 
