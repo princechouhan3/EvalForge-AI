@@ -112,6 +112,6 @@ This project is an evaluation and preference-dataset preparation platform. The g
 
 **Prince Chouhan**
 
-GitHub: https://github.com/princechouhan3
+GitHub: https://github.com/princeparvez3
 
 Portfolio: https://princechouhan3.github.io/princeparvez-portfolio/
