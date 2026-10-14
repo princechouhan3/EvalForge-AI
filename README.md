@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-🚀 **Try the application:** https://evalforge-ai-le7rkw94p8gb5vodcjweka.streamlit.app/
+**Try the application:** https://evalforge-ai-le7rkw94p8gb5vodcjweka.streamlit.app/
 
 ## Features
 
