@@ -229,7 +229,47 @@ st.markdown(
     }
     ::selection { background: rgba(139,92,246,.38); color: #fff; }
 
-    @media (max-width: 768px) { .block-container { padding: 1.2rem 1rem 2rem; } }
+    /* Mobile-first layout: keep evaluation forms readable and metrics compact. */
+    @media (max-width: 768px) {
+      .block-container { padding: 1rem .85rem 2rem !important; max-width: 100% !important; }
+      [data-testid="stHorizontalBlock"] { flex-wrap: wrap !important; gap: .75rem !important; }
+      /* KPI groups with 3–4 columns become two-column grids on phone screens. */
+      [data-testid="stHorizontalBlock"]:has(> [data-testid="column"]:nth-child(3)) > [data-testid="column"] {
+        flex: 1 1 calc(50% - .5rem) !important;
+        width: calc(50% - .5rem) !important;
+        min-width: calc(50% - .5rem) !important;
+      }
+      /* Two-panel layouts stack so long responses/forms remain readable. */
+      [data-testid="stHorizontalBlock"]:not(:has(> [data-testid="column"]:nth-child(3))) > [data-testid="column"] {
+        flex: 1 1 100% !important;
+        width: 100% !important;
+        min-width: 100% !important;
+      }
+      h1 { font-size: clamp(1.55rem, 6vw, 2rem) !important; overflow-wrap: anywhere; }
+      h2 { font-size: 1.3rem !important; }
+      h3 { font-size: 1.08rem !important; }
+      [data-testid="stMetric"] { padding: .8rem .85rem; border-radius: 13px; min-width: 0; }
+      [data-testid="stMetricLabel"] { font-size: .76rem !important; }
+      [data-testid="stMetricValue"] { font-size: clamp(1.2rem, 5vw, 1.7rem) !important; overflow-wrap: anywhere; }
+      [data-testid="stForm"] { padding: .85rem !important; border-radius: 14px; }
+      [data-testid="stTextArea"] textarea,
+      [data-testid="stTextInput"] input,
+      [data-testid="stNumberInput"] input { font-size: 16px !important; }
+      .stButton > button, [data-testid="stFormSubmitButton"] button,
+      [data-testid="stDownloadButton"] button { width: 100%; min-height: 2.8rem; }
+      [data-testid="stDataFrame"], [data-testid="stTable"],
+      [data-testid="stVegaLiteChart"], [data-testid="stPlotlyChart"] {
+        max-width: 100%; overflow-x: auto;
+      }
+      [data-testid="stSidebar"] [role="radiogroup"] label { padding: .65rem .7rem; }
+      [data-testid="stFileUploader"] section { padding: .55rem; }
+    }
+    @media (max-width: 420px) {
+      .block-container { padding-left: .65rem !important; padding-right: .65rem !important; }
+      [data-testid="stMetric"] { padding: .7rem; }
+      [data-testid="stMetricValue"] { font-size: 1.18rem !important; }
+      [data-testid="stVerticalBlockBorderWrapper"] { border-radius: 13px; }
+    }
 
     </style>
 
